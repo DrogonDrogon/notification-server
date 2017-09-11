@@ -33,7 +33,7 @@ exports.notification = (req, res) => {
         to: user.token,
         sound: 'default',
         body: req.body.message,
-        data: { withSome: 'data' },
+        data: { message: req.body.message },
       });
       const chunks = expo.chunkPushNotifications(messages);
       // console.log('chunk', chunk);
