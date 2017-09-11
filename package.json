@@ -19,13 +19,9 @@
     "react-native-message-bar": "^2.0.4"
   },
   "scripts": {
-
     "start": " node server/server.js"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "start"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DrogonDrogon/notification-server.git"
