@@ -1,11 +1,11 @@
 const firebase = require('firebase');
-const config = require('../config/config.js');
+// const config = require('../config/config.js');
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY || config.firebase.apiKey,
-  authDomain: process.env.authDomain || config.firebase.authDomain,
-  databaseURL: process.env.databaseURL || config.firebase.databaseURL,
-  storageBucket: process.env.storageBucket || config.firebase.storageBucket,
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.authDomain,
+  databaseURL: process.env.databaseURL,
+  storageBucket: process.env.storageBucket,
 };
 
 firebase.initializeApp(firebaseConfig);
