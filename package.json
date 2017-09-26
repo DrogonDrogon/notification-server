@@ -1,0 +1,34 @@
+{
+  "name": "notification-server",
+  "version": "1.0.0",
+  "description": "notificayion server",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "expo-server-sdk": "^2.3.1",
+    "express": "^4.15.4",
+    "firebase": "^4.3.1",
+    "nodemon": "^1.12.0",
+    "react-native-message-bar": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrogonDrogon/notification-server.git"
+  },
+  "author": "walter shub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrogonDrogon/notification-server/issues"
+  },
+  "homepage": "https://github.com/DrogonDrogon/notification-server#readme"
+}
